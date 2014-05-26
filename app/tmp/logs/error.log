@@ -1,0 +1,724 @@
+2014-05-22 11:47:31 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 11:54:53 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 11:55:01 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 11:55:43 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 11:55:46 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 11:55:52 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 11:55:54 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 11:55:54 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 11:56:02 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 12:05:33 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 12:05:51 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 12:06:04 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 12:06:17 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 12:08:02 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 12:08:03 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 12:09:19 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 14:59:26 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 14:59:33 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-22 15:10:12 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-26 10:15:51 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogger.php(46): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogger::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogger::on...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 10:16:38 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogger.php(46): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogger::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogger::on...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 10:30:52 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogger.php(46): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogger::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogger::on...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 10:31:56 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogger.php(46): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogger::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogger::on...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 10:32:27 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogger.php(46): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogger::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogger::on...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 10:32:56 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogger.php(46): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogger::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogger::on...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 10:34:01 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogger.php(46): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogger::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogger::on...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 10:59:14 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogger.php(46): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogger::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogger::on...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 11:50:57 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogger.php(46): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogger::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogger::on...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 11:51:00 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogger.php(46): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogger::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogger::on...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 14:26:09 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogger.php(48): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogger::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogger::on...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 14:42:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(33): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, 'hi', '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 14:44:03 Error: [Swift_RfcComplianceException] Address in mailbox given [] does not comply with RFC 2822, 3.6.2.
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(50): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#12 {main}
+2014-05-26 14:46:54 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-26 14:47:25 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-26 14:50:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(33): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, 'hi', '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 14:51:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(34): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, 'hi', '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 14:51:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(34): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, 'hi', '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 14:51:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(34): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, NULL, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 14:52:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(34): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(30): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 14:52:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(34): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(30): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 14:52:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(34): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(30): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 14:54:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(34): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(30): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 14:55:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(34): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(30): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 14:57:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(47): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(30): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 15:43:40 Error: [Swift_TransportException] Connection could not be established with host smtp.sendgrid.net [Connection timed out #110]
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#4 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#9 {main}
+2014-05-26 15:47:44 Error: [Swift_TransportException] Connection could not be established with host localhost [Connection refused #111]
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#4 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#9 {main}
+2014-05-26 15:49:03 Error: [Swift_TransportException] Connection could not be established with host localhost [Connection refused #111]
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#4 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#9 {main}
+2014-05-26 15:50:24 Error: [Swift_TransportException] Connection could not be established with host localhost [Connection refused #111]
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#4 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#9 {main}
+2014-05-26 15:53:05 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-26 15:54:30 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-26 15:55:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(46): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 15:55:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(47): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 15:57:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(47): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 15:58:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(47): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 15:58:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(47): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 16:27:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(47): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 16:29:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `er...', Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `er...')
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1834): DboSource->create(Object(ErrorLogger), Array, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Model/ErrorLogger.php(47): Model->save(Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(29): ErrorLogger->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#6 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#11 {main}
+2014-05-26 16:30:30 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
