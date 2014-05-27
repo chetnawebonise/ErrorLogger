@@ -386,11 +386,11 @@ Cache::config('_cake_model_', array(
 ));
 
 Configure::write('enableEmail', array(
-    'enable'       => '1',
-    'sender_email' => 'chetna.patil@weboniselab.com',
+    'enable'       => '0',
+    'sender_email' => 'admin@crucibleapp.com',
     'sender_name'  => 'Chetna',
-    'host'         => 'smtp.gmail.com',
-    'port'         => 465
+    'host'         => 'smtp.sendgrid.net',
+    'port'         => 587
 ));
 
 App::uses('ErrorLogs', 'Lib');
@@ -412,8 +412,8 @@ Configure::write('emailDetails',
     array(
         'airBreakAPIKey' => '0fe5a382cc8dacb1083ec2f926f07eeb',
         'SSLON' => 'http://',
-        'UserName' => 'chetna',
-        'Password' => 'chetna6186',
+        'UserName' => 'kvijay',
+        'Password' => 'vijay6186',
         'receiver_email' => 'chetna.patil@weboniselab.com',
         'receiver_name' => 'Chetna'
     )

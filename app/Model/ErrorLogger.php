@@ -31,7 +31,7 @@ class ErrorLogger extends AppModel
             $toReturn[] = $data;
         }
 
-        echo json_encode($toReturn);
+//        echo json_encode($toReturn);
         $data = array(
             'message' => $message,
             'type' => $type,

@@ -722,3 +722,309 @@ Stack Trace:
 #8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
 #9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
 #10 {main}
+2014-05-27 14:34:12 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-27 14:34:39 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-27 14:34:41 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-27 14:36:52 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-27 14:38:03 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-27 14:38:38 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-27 14:39:16 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-27 14:40:42 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-27 14:40:58 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-27 14:42:14 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-27 14:43:24 Error: [Swift_IoException] Connection to smtp.gmail.com:465 Timed Out
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(400): Swift_Transport_StreamBuffer->readLine(0)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-27 14:45:00 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-27 14:45:51 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-27 14:46:09 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-27 14:46:48 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <email@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <ema...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <ema...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('email@cruciblea...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'email@cruciblea...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'email@cruciblea...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-27 14:46:52 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <email@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <ema...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <ema...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('email@cruciblea...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'email@cruciblea...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'email@cruciblea...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-27 14:47:13 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <email@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <ema...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <ema...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('email@cruciblea...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'email@cruciblea...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'email@cruciblea...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-27 14:50:53 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetnaonlyme@gmail.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetnaonlyme@gm...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetnaonlyme@gm...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetnaonlyme@gm...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-27 14:52:37 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <admin@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <adm...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <adm...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('admin@cruciblea...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'admin@cruciblea...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'admin@cruciblea...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-27 14:52:49 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <admin@errorLogger.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <adm...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <adm...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('admin@errorLogg...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'admin@errorLogg...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'admin@errorLogg...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-27 14:53:12 Error: [Swift_TransportException] Cannot send message without a sender address
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#2 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#7 {main}
