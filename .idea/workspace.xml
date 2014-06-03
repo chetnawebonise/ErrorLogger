@@ -2,17 +2,394 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b38bd8-893d-427e-a82e-48f81751f729" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_error_logger_error_loggers" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_error_logger_list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_dev_en-us" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_en-us" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_file_map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_method_cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/ErrorLogs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/CHANGES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/headers.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/help-resources.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/including-the-files.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/installing.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/introduction.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/japanese.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/messages.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/overview.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/plugins.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/sending.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/uml/Encoders.graffle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/uml/Mime.graffle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/doc/uml/Transports.graffle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Attachment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/ByteStream/AbstractFilterableInputStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/ByteStream/ArrayByteStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/ByteStream/FileByteStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/ByteStream/TemporaryFileByteStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/CharacterReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/CharacterReader/Utf8Reader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/CharacterReaderFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/CharacterReaderFactory/SimpleCharacterReaderFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/CharacterStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/ConfigurableSpool.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/DependencyContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/DependencyException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/EmbeddedFile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Encoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Encoder/Base64Encoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Encoder/QpEncoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Encoding.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/CommandEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/CommandListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/Event.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/EventDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/EventListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/EventObject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/ResponseEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/ResponseListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/SendEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/SendListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/SimpleEventDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/TransportChangeEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/TransportChangeListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/TransportExceptionEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Events/TransportExceptionListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/FailoverTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/FileSpool.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/FileStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Filterable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/InputByteStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/IoException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/KeyCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/KeyCache/ArrayKeyCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/KeyCache/DiskKeyCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/KeyCache/KeyCacheInputStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/KeyCache/NullKeyCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/LoadBalancedTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/MailTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mailer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mailer/RecipientIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/MemorySpool.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Message.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Attachment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/CharsetObserver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/ContentEncoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/ContentEncoder/Base64ContentEncoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/ContentEncoder/NativeQpContentEncoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoderProxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/ContentEncoder/RawContentEncoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/EmbeddedFile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/EncodingObserver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Grammar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/HeaderEncoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/HeaderFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/HeaderSet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Headers/DateHeader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Headers/IdentificationHeader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Headers/PathHeader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Headers/UnstructuredHeader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/Message.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/MimeEntity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/MimePart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/ParameterizedHeader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/SimpleMessage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/MimePart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/NullTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/OutputByteStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/AntiFloodPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/BandwidthMonitorPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/Decorator/Replacements.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/Logger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/LoggerPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/MessageLogger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/Pop/Pop3Connection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/RedirectingPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/Reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/ReporterPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/Sleeper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/ThrottlerPlugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Plugins/Timer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Preferences.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/ReplacementFilterFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/RfcComplianceException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/SendmailTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/SignedMessage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Signer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Signers/BodySigner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Signers/DKIMSigner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Signers/DomainKeySigner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Signers/HeaderSigner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Signers/OpenDKIMSigner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Signers/SMimeSigner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/SmtpTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Spool.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/SpoolTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/StreamFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/StreamFilters/StringReplacementFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/StreamFilters/StringReplacementFilterFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/SwiftException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/Esmtp/Authenticator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/EsmtpHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/EsmtpTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/FailoverTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/IoBuffer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/LoadBalancedTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/MailInvoker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/MailTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/NullTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/SendmailTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/SimpleMailInvoker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/SmtpAgent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/SpoolTransport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Transport/StreamBuffer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/TransportException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/classes/Swift/Validate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/dependency_maps/cache_deps.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/dependency_maps/message_deps.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/dependency_maps/mime_deps.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/dependency_maps/transport_deps.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/mime_types.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/preferences.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/swift_init.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/swift_required.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/swift_required_pear.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/lib/swiftmailer_generate_mimes_config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/APPS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/CHARSETS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/message.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc0821.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc0822.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc1341.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc1521.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc1854.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2015.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2045.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2046.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2047.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2048.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2049.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2183.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2222.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2231.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2234.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2440.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2487.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2554.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2821.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc2822.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc3156.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc3676.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc4505.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc4616.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc4870.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc4871.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc4880.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc4954.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/rfc5751.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/rfc/whats_where.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/notes/smtp.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/IdenticalBinaryConstraint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/StreamCollector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/SwiftMailerSmokeTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/SwiftMailerTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/charsets/iso-2022-jp/one.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/charsets/iso-8859-1/one.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/charsets/utf-8/one.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/charsets/utf-8/three.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/charsets/utf-8/two.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/dkim/dkim.test.priv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/dkim/dkim.test.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/files/data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/files/textfile.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/smime/CA.srl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/smime/ca.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/smime/ca.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/smime/create-cert.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/smime/encrypt.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/smime/encrypt.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/smime/encrypt2.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/smime/encrypt2.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/smime/sign.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/_samples/smime/sign.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance.conf.php.default" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/AttachmentAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/ByteStream/FileByteStreamAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/CharacterReaderFactory/SimpleCharacterReaderFactoryAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/DependencyContainerAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/EmbeddedFileAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Encoder/Base64EncoderAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Encoder/QpEncoderAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Encoder/Rfc2231EncoderAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/EncodingAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/KeyCache/ArrayKeyCacheAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/KeyCache/DiskKeyCacheAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/MessageAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Mime/AttachmentAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Mime/ContentEncoder/Base64ContentEncoderAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Mime/ContentEncoder/NativeQpContentEncoderAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Mime/ContentEncoder/PlainContentEncoderAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Mime/ContentEncoder/QpContentEncoderAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Mime/EmbeddedFileAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Mime/HeaderEncoder/Base64HeaderEncoderAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Mime/MimePartAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Mime/SimpleMessageAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/MimePartAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Transport/StreamBuffer/AbstractStreamBufferAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Transport/StreamBuffer/BasicSocketAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Transport/StreamBuffer/ProcessAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Transport/StreamBuffer/SocketTimeoutTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Transport/StreamBuffer/SslSocketAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/acceptance/Swift/Transport/StreamBuffer/TlsSocketAcceptanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/bug/Swift/Bug111Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/bug/Swift/Bug118Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/bug/Swift/Bug206Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/bug/Swift/Bug274Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/bug/Swift/Bug34Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/bug/Swift/Bug35Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/bug/Swift/Bug38Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/bug/Swift/Bug51Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/bug/Swift/Bug71Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/bug/Swift/Bug76Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/fixtures/EsmtpTransportFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/fixtures/MimeEntityFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/smoke.conf.php.default" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/smoke/Swift/Smoke/AttachmentSmokeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/smoke/Swift/Smoke/BasicSmokeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/smoke/Swift/Smoke/HtmlWithAttachmentSmokeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/smoke/Swift/Smoke/InternationalSmokeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/ByteStream/ArrayByteStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/CharacterReader/GenericFixedWidthReaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/CharacterReader/UsAsciiReaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/CharacterReader/Utf8ReaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/CharacterStream/ArrayCharacterStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/DependencyContainerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Encoder/Base64EncoderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Encoder/QpEncoderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Encoder/Rfc2231EncoderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Events/CommandEventTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Events/EventObjectTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Events/ResponseEventTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Events/SendEventTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Events/SimpleEventDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Events/TransportChangeEventTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Events/TransportExceptionEventTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/KeyCache/ArrayKeyCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/KeyCache/SimpleKeyCacheInputStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mailer/ArrayRecipientIteratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/MailerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/AbstractMimeEntityTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/AttachmentTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/ContentEncoder/Base64ContentEncoderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/ContentEncoder/PlainContentEncoderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/ContentEncoder/QpContentEncoderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/EmbeddedFileTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/HeaderEncoder/Base64HeaderEncoderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/HeaderEncoder/QpHeaderEncoderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/Headers/DateHeaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/Headers/IdentificationHeaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/Headers/MailboxHeaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/Headers/ParameterizedHeaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/Headers/PathHeaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/Headers/UnstructuredHeaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/MimePartTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/SimpleHeaderFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/SimpleHeaderSetTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/SimpleMessageTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Mime/SimpleMimeEntityTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/AntiFloodPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/BandwidthMonitorPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/DecoratorPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/LoggerPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/Loggers/ArrayLoggerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/Loggers/EchoLoggerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/PopBeforeSmtpPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/RedirectingPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/ReporterPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/Reporters/HitReporterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/Reporters/HtmlReporterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Plugins/ThrottlerPluginTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Signers/DKIMSignerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Signers/OpenDKIMSignerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Signers/SMimeSignerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/StreamFilters/ByteArrayReplacementFilterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/StreamFilters/StringReplacementFilterFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/StreamFilters/StringReplacementFilterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/AbstractSmtpEventSupportTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/AbstractSmtpTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/Esmtp/Auth/CramMd5AuthenticatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/Esmtp/Auth/LoginAuthenticatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/Esmtp/Auth/NTLMAuthenticatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/Esmtp/Auth/PlainAuthenticatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/Esmtp/AuthHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/EsmtpTransport/ExtensionSupportTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/EsmtpTransportTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/FailoverTransportTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/LoadBalancedTransportTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/MailTransportTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/SendmailTransportTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/swift_mailer/tests/unit/Swift/Transport/StreamBufferTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Plugin/ErrorLogger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/ErrorLoggers/add.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/ErrorLoggers/edit.ctp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/bootstrap.php" afterPath="$PROJECT_DIR$/app/Config/bootstrap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/core.php" afterPath="$PROJECT_DIR$/app/Config/core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/routes.php" afterPath="$PROJECT_DIR$/app/Config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/ErrorLogger.php" afterPath="$PROJECT_DIR$/app/Model/ErrorLogger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Layouts/default.ctp" afterPath="$PROJECT_DIR$/app/View/Layouts/default.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/ErrorLoggersController.php" afterPath="$PROJECT_DIR$/app/Controller/ErrorLoggersController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/PagesController.php" afterPath="$PROJECT_DIR$/app/Controller/PagesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/ErrorLoggers/index.ctp" afterPath="$PROJECT_DIR$/app/View/ErrorLoggers/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_error_logger_error_loggers" afterPath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_error_logger_error_loggers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_error_logger_list" afterPath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_error_logger_list" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_en-us" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_en-us" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_default_en-us" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_default_en-us" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_file_map" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_file_map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_method_cache" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_method_cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/logs/error.log" afterPath="$PROJECT_DIR$/app/tmp/logs/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Error/ErrorHandler.php" afterPath="$PROJECT_DIR$/lib/Cake/Error/ErrorHandler.php" />
     </list>
     <ignored path="ErrorLogger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,75 +409,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="core.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+      <file leaf-file-name="ErrorLoggersAppModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/Model/ErrorLoggersAppModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="402" column="0" selection-start="14864" selection-end="14864" vertical-scroll-proportion="0.7548291">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="43" selection-start="1544" selection-end="1544" vertical-scroll-proportion="-37.5">
-              <folding>
-                <element signature="e#38#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Errors.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/Errors.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/ErrorLoggers/add.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PagesController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/PagesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="43" selection-start="1908" selection-end="1908" vertical-scroll-proportion="-15.291667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ErrorLoggersController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/ErrorLoggersController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="26" selection-start="393" selection-end="393" vertical-scroll-proportion="-14.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="83" selection-start="1173" selection-end="1173" vertical-scroll-proportion="-4.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/ErrorLoggers/view.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="14" column="31" selection-start="371" selection-end="371" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -109,16 +421,54 @@
       <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/ErrorLoggers/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="21" column="27" selection-start="1094" selection-end="1094" vertical-scroll-proportion="-13.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorLoggersController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Controller/ErrorLoggersController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="52" selection-start="219" selection-end="219" vertical-scroll-proportion="0.17830609">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorLogger.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/Model/ErrorLogger.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="17" selection-start="770" selection-end="770" vertical-scroll-proportion="-16.875">
+              <folding>
+                <element signature="e#6#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorLoggersAppConroller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/Controller/ErrorLoggersAppConroller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ErrorLogs.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Lib/ErrorLogs.php">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="31" selection-start="1611" selection-end="1611" vertical-scroll-proportion="-21.25">
+            <state line="21" column="35" selection-start="761" selection-end="761" vertical-scroll-proportion="-11.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorLoggersController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/Controller/ErrorLoggersController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="1" selection-start="585" selection-end="585" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -137,18 +487,40 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/Model/ErrorLogger.php" />
-        <option value="$PROJECT_DIR$/app/Config/routes.php" />
-        <option value="$PROJECT_DIR$/app/View/Layouts/default.ctp" />
+        <option value="$PROJECT_DIR$/app/Plugin/ErrorLogger/Lib/ErrorLogs.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/ErrorLoggers/Controller/ErrorLoggersController.php" />
+        <option value="$PROJECT_DIR$/app/Config/bootstrap.php" />
+        <option value="$PROJECT_DIR$/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/ErrorLoggers/Controller/Component/SwiftMailerComponent.php" />
         <option value="$PROJECT_DIR$/app/Config/core.php" />
+        <option value="$PROJECT_DIR$/app/Controller/Component/SwiftMailerComponent.php" />
+        <option value="$PROJECT_DIR$/lib/Cake/Error/ErrorHandler.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/ErrorLoggers/Model/ErrorLoggers.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/ErrorLoggers/Model/ErrorLoggersAppModel.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/ErrorLoggers/Model/ErrorLogger.php" />
+        <option value="$PROJECT_DIR$/app/Controller/PagesController.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/ErrorLoggers/Controller/ErrorLoggersAppConroller.php" />
+        <option value="$PROJECT_DIR$/app/View/ErrorLoggers/index.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/ErrorLoggersController.php" />
       </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" />
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="errorlogger.com" name="errorlogger.com" use_path_mappings="true">
+        <path_mappings>
+          <path_mapping local_path="$PROJECT_DIR$" remote_path="$PROJECT_DIR$/app/webroot" />
+        </path_mappings>
+      </server>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1414" />
+    <option name="x" value="1206" />
     <option name="y" value="24" />
-    <option name="width" value="1386" />
+    <option name="width" value="1546" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -206,6 +578,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -224,7 +614,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
+              <option name="myItemId" value="webroot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,10 +633,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,6 +672,128 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLoggers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLoggers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLoggers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLoggers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -304,7 +812,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Config" />
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorLogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Component" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,48 +863,80 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.externalResources" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../app2013/Crucible" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Plugin/ErrorLogger/Controller/Component" />
+      <recent name="$PROJECT_DIR$/app/Controller/Component" />
+      <recent name="$PROJECT_DIR$/app/Plugin/ErrorLogger/Lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Test" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="81b38bd8-893d-427e-a82e-48f81751f729" name="Default" comment="" />
       <created>1401182056225</created>
       <updated>1401182056225</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1414" y="24" width="1386" height="876" extended-state="6" />
+    <frame x="1206" y="24" width="1546" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24799465" sideWeight="0.9626667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39866668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -409,54 +989,42 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Model/ErrorLogger.php">
+    <entry file="file://$PROJECT_DIR$/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="854" selection-end="854" vertical-scroll-proportion="-17.5">
+        <state line="154" column="0" selection-start="3926" selection-end="3926" vertical-scroll-proportion="0.025">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Lib/ErrorLogs.php">
+    <entry file="file://$PROJECT_DIR$/lib/Cake/Error/ErrorHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="31" selection-start="1611" selection-end="1611" vertical-scroll-proportion="-21.25">
+        <state line="197" column="0" selection-start="7528" selection-end="7528" vertical-scroll-proportion="-3.7916667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mime/Headers/AbstractHeader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="255" column="65" selection-start="5775" selection-end="5775" vertical-scroll-proportion="0.025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="414" column="30" selection-start="15217" selection-end="15217" vertical-scroll-proportion="0.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/PagesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="43" selection-start="1908" selection-end="1908" vertical-scroll-proportion="-15.291667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="83" selection-start="1173" selection-end="1173" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/ErrorLoggers/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/ErrorLoggers/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/ErrorLoggersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="26" selection-start="393" selection-end="393" vertical-scroll-proportion="-14.375">
+        <state line="76" column="5" selection-start="1969" selection-end="1969" vertical-scroll-proportion="-20.541666">
           <folding />
         </state>
       </provider>
@@ -468,25 +1036,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/Controller/ErrorLoggersAppConroller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="43" selection-start="1544" selection-end="1544" vertical-scroll-proportion="-37.5">
+        <state line="14" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/Controller/ErrorLoggersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="585" selection-end="585" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="35" selection-start="761" selection-end="761" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/Model/ErrorLogger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="17" selection-start="770" selection-end="770" vertical-scroll-proportion="-16.875">
           <folding>
-            <element signature="e#38#43#0" expanded="true" />
+            <element signature="e#6#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/ErrorLoggers/add.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/View/on_error.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/View/default.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="402" column="0" selection-start="14864" selection-end="14864" vertical-scroll-proportion="0.7548291">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/ErrorLoggers/Model/ErrorLoggersAppModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="371" selection-end="371" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/ErrorLoggers/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="27" selection-start="1094" selection-end="1094" vertical-scroll-proportion="-13.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/ErrorLoggersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="52" selection-start="219" selection-end="219" vertical-scroll-proportion="0.17830609">
           <folding />
         </state>
       </provider>

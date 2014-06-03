@@ -108,7 +108,6 @@ class ErrorHandler {
  */
 	public static function handleException(Exception $exception) {
 
-        echo 'handled exception';
 		$config = Configure::read('Exception');
 		self::_log($exception, $config);
 
@@ -197,8 +196,6 @@ class ErrorHandler {
  */
 	public static function handleError($code, $description, $file = null, $line = null, $context = null) {
 
-
-        echo 'handled error';
 		if (error_reporting() === 0) {
 			return false;
 		}

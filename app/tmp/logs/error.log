@@ -1028,3 +1028,1016 @@ Stack Trace:
 #5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
 #6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
 #7 {main}
+2014-05-27 15:07:58 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <admin@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <adm...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <adm...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('admin@cruciblea...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'admin@cruciblea...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'admin@cruciblea...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 16:58:03 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <admin@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <adm...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <adm...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('admin@cruciblea...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'admin@cruciblea...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'admin@cruciblea...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 16:58:09 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <admin@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <adm...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <adm...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('admin@cruciblea...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'admin@cruciblea...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'admin@cruciblea...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 16:59:45 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:03:47 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:03:57 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:04:04 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:04:04 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:04:23 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <email@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <ema...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <ema...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('email@cruciblea...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'email@cruciblea...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'email@cruciblea...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:10:01 Error: [Swift_TransportException] Connection could not be established with host ssl://smtp.sendgrid.net [ #0]
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#4 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#9 {main}
+2014-05-29 17:10:20 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:10:51 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetnaonlyme@gmail.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetnaonlyme@gm...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetnaonlyme@gm...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetnaonlyme@gm...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:11:46 Error: [Swift_TransportException] Connection could not be established with host ssl://smtp.gmail.com [ #0]
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#4 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#9 {main}
+2014-05-29 17:12:41 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <support@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <sup...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <sup...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@crucibl...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:20:19 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <support@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <sup...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <sup...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@crucibl...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:20:27 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <support@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <sup...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <sup...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@crucibl...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:22:51 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <support@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <sup...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <sup...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@crucibl...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:22:54 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <support@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <sup...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <sup...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@crucibl...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:23:57 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <support@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <sup...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <sup...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@crucibl...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:27:22 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <support@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <sup...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <sup...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@crucibl...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(60): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:27:41 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <support@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <sup...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <sup...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@crucibl...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(60): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:34:52 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <support@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <sup...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <sup...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@crucibl...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(60): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 17:52:29 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <support@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <sup...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <sup...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@crucibl...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 18:17:55 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <support@crucibleapp.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <sup...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <sup...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('support@crucibl...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'support@crucibl...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 18:18:22 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 18:18:30 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 18:18:42 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 18:19:43 Error: [Swift_TransportException] Expected response code 250 but got code "550", with message "550 Cannot receive from specified address <chetna.patil@weboniselab.com>: Unauthenticated senders not allowed
+"
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('550 Cannot rece...', Array)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(245): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM: <che...', Array, Array)
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/EsmtpTransport.php(327): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM: <che...', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(416): Swift_Transport_EsmtpTransport->_doMailFromCommand('chetna.patil@we...')
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(444): Swift_Transport_AbstractSmtpTransport->_doMailTransaction(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php(176): Swift_Transport_AbstractSmtpTransport->_sendTo(Object(Swift_Message), 'chetna.patil@we...', Array, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Vendor/Swift-5.0.1/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Lib/ErrorLogs.php(52): Swift_Mailer->send(Object(Swift_Message))
+#8 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#10 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#11 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#12 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#13 {main}
+2014-05-29 18:59:56 Error: [MissingTableException] Table error_logger_app_models for model ErrorLoggerAppModel was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'error_logger_app_models',
+  'class' => 'ErrorLoggerAppModel',
+  'ds' => 'default',
+)
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(3501): Model->setSource('error_logger_ap...')
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(800): Model->getDataSource()
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Lib/ErrorLogs.php(29): Model->__call('addLog', Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Lib/ErrorLogs.php(29): ErrorLoggerAppModel->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#4 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#5 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#9 {main}
+2014-05-29 19:00:51 Error: [MissingTableException] Table error_logger_app_models for model ErrorLoggerAppModel was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'error_logger_app_models',
+  'class' => 'ErrorLoggerAppModel',
+  'ds' => 'default',
+)
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(3501): Model->setSource('error_logger_ap...')
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1541): Model->schema()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Model/ErrorLoggerAppModel.php(43): Model->create()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Lib/ErrorLogs.php(29): ErrorLoggerAppModel->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-29 19:00:54 Error: [MissingTableException] Table error_logger_app_models for model ErrorLoggerAppModel was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'error_logger_app_models',
+  'class' => 'ErrorLoggerAppModel',
+  'ds' => 'default',
+)
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(3501): Model->setSource('error_logger_ap...')
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1541): Model->schema()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Model/ErrorLoggerAppModel.php(43): Model->create()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Lib/ErrorLogs.php(29): ErrorLoggerAppModel->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-29 19:00:54 Error: [MissingTableException] Table error_logger_app_models for model ErrorLoggerAppModel was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'error_logger_app_models',
+  'class' => 'ErrorLoggerAppModel',
+  'ds' => 'default',
+)
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(3501): Model->setSource('error_logger_ap...')
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1541): Model->schema()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Model/ErrorLoggerAppModel.php(43): Model->create()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Lib/ErrorLogs.php(29): ErrorLoggerAppModel->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-29 19:00:54 Error: [MissingTableException] Table error_logger_app_models for model ErrorLoggerAppModel was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'error_logger_app_models',
+  'class' => 'ErrorLoggerAppModel',
+  'ds' => 'default',
+)
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(3501): Model->setSource('error_logger_ap...')
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1541): Model->schema()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Model/ErrorLoggerAppModel.php(43): Model->create()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Lib/ErrorLogs.php(29): ErrorLoggerAppModel->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-29 19:00:54 Error: [MissingTableException] Table error_logger_app_models for model ErrorLoggerAppModel was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'error_logger_app_models',
+  'class' => 'ErrorLoggerAppModel',
+  'ds' => 'default',
+)
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(3501): Model->setSource('error_logger_ap...')
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Model/Model.php(1541): Model->schema()
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Model/ErrorLoggerAppModel.php(43): Model->create()
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Lib/ErrorLogs.php(29): ErrorLoggerAppModel->addLog('set_exception_h...', 2, Array, '/home/webonise/...', 445, Array, NULL)
+#5 [internal function]: ErrorLogs::onError(2, 'set_exception_h...', '/home/webonise/...', 445, Array)
+#6 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(445): set_exception_handler('ErrorLogs::onEx...')
+#7 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/Configure.php(104): Configure::_setErrorHandlers(Array, Array)
+#8 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#9 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(90): include('/home/webonise/...')
+#10 {main}
+2014-05-30 14:13:35 Error: >>>>>logsss<<<<<<
+2014-05-30 14:13:35 Error: >>>>>logsss<<<<<<
+2014-05-30 14:14:03 Error: >>>>>logsss<<<<<<
+2014-05-30 14:14:03 Error: >>>>>logsss<<<<<<
+2014-05-30 14:14:36 Error: >>>>>logsss<<<<<<
+2014-05-30 14:14:36 Error: >>>>>logsss<<<<<<
+2014-05-30 14:14:42 Error: >>>>>logsss<<<<<<
+2014-05-30 14:14:42 Error: >>>>>logsss<<<<<<
+2014-05-30 14:18:56 Error: >>>>>logsss<<<<<<
+2014-05-30 14:18:56 Error: >>>>>logsss<<<<<<
+2014-05-30 14:19:12 Error: >>>>>logsss<<<<<<
+2014-05-30 14:19:13 Error: >>>>>logsss<<<<<<
+2014-05-30 14:19:27 Error: >>>>>logsss<<<<<<
+2014-05-30 14:19:27 Error: >>>>>logsss<<<<<<
+2014-05-30 14:19:37 Error: >>>>>logsss<<<<<<
+2014-05-30 14:19:37 Error: >>>>>logsss<<<<<<
+2014-05-30 14:20:05 Error: >>>>>logsss<<<<<<
+2014-05-30 14:20:05 Error: >>>>>logsss<<<<<<
+2014-05-30 14:20:26 Error: >>>>>logsss<<<<<<
+2014-05-30 14:20:26 Error: >>>>>logsss<<<<<<
+2014-05-30 14:20:53 Error: >>>>>logsss<<<<<<
+2014-05-30 14:20:53 Error: >>>>>logsss<<<<<<
+2014-05-30 14:20:55 Error: >>>>>logsss<<<<<<
+2014-05-30 14:20:55 Error: >>>>>logsss<<<<<<
+2014-05-30 14:20:56 Error: >>>>>logsss<<<<<<
+2014-05-30 14:20:56 Error: >>>>>logsss<<<<<<
+2014-05-30 14:21:17 Error: >>>>>logsss<<<<<<
+2014-05-30 14:21:17 Error: >>>>>logsss<<<<<<
+2014-05-30 14:21:41 Error: >>>>>logsss<<<<<<
+2014-05-30 14:21:41 Error: >>>>>logsss<<<<<<
+2014-05-30 14:22:35 Error: >>>>>logsss<<<<<<
+2014-05-30 14:22:35 Error: >>>>>logsss<<<<<<
+2014-05-30 14:22:43 Error: >>>>>logsss<<<<<<
+2014-05-30 14:22:43 Error: >>>>>logsss<<<<<<
+2014-05-30 14:22:44 Error: >>>>>logsss<<<<<<
+2014-05-30 14:22:44 Error: >>>>>logsss<<<<<<
+2014-05-30 14:23:43 Error: >>>>>logsss<<<<<<
+2014-05-30 14:23:43 Error: >>>>>logsss<<<<<<
+2014-05-30 14:25:01 Error: >>>>>logsss<<<<<<
+2014-05-30 14:25:01 Error: >>>>>logsss<<<<<<
+2014-05-30 14:25:02 Error: >>>>>logsss<<<<<<
+2014-05-30 14:25:02 Error: >>>>>logsss<<<<<<
+2014-05-30 14:26:12 Error: >>>>>logsss<<<<<<
+2014-05-30 14:26:12 Error: >>>>>logsss<<<<<<
+2014-05-30 14:26:19 Error: >>>>>logsss<<<<<<
+2014-05-30 14:26:19 Error: >>>>>logsss<<<<<<
+2014-05-30 14:26:30 Error: >>>>>logsss<<<<<<
+2014-05-30 14:26:30 Error: >>>>>logsss<<<<<<
+2014-05-30 14:26:32 Error: >>>>>logsss<<<<<<
+2014-05-30 14:26:32 Error: >>>>>logsss<<<<<<
+2014-05-30 14:26:32 Error: >>>>>logsss<<<<<<
+2014-05-30 14:26:32 Error: >>>>>logsss<<<<<<
+2014-05-30 14:28:24 Error: >>>>>logsss<<<<<<
+2014-05-30 14:28:24 Error: >>>>>logsss<<<<<<
+2014-05-30 14:29:27 Error: >>>>>logsss<<<<<<
+2014-05-30 14:29:27 Error: >>>>>logsss<<<<<<
+2014-05-30 14:29:53 Error: >>>>>logsss<<<<<<
+2014-05-30 14:29:54 Error: >>>>>logsss<<<<<<
+2014-05-30 14:29:55 Error: >>>>>logsss<<<<<<
+2014-05-30 14:29:55 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:11 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:11 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:13 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:13 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:13 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:13 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:13 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:13 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:14 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:14 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:14 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:14 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:33 Error: >>>>>logsss<<<<<<
+2014-05-30 14:35:34 Error: >>>>>logsss<<<<<<
+2014-05-30 14:44:17 Error: >>>>>logsss<<<<<<
+2014-05-30 14:44:17 Error: >>>>>logsss<<<<<<
+2014-05-30 14:45:49 Error: >>>>>logsss<<<<<<
+2014-05-30 14:45:49 Error: >>>>>logsss<<<<<<
+2014-05-30 14:46:21 Error: >>>>>logsss<<<<<<
+2014-05-30 14:46:21 Error: >>>>>logsss<<<<<<
+2014-05-30 14:47:08 Error: Fatal Error (4): Message-ID: <2f922dd9bdabdb749bf5cabc11202c62@errorlogger.com>
+Date: Fri, 30 May 2014 14:47:08 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:47:30 Error: Fatal Error (4): Message-ID: <499e12d157fad0fd17d381be1c147822@errorlogger.com>
+Date: Fri, 30 May 2014 14:47:30 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:49:14 Error: Fatal Error (4): Message-ID: <96f9b8a6aa1e53873169258cb2ef2410@errorlogger.com>
+Date: Fri, 30 May 2014 14:49:14 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:49:38 Error: Fatal Error (4): Message-ID: <40fe5d2f4486b37f2c2da8dea4b5c7cd@errorlogger.com>
+Date: Fri, 30 May 2014 14:49:38 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:50:19 Error: Fatal Error (4): Message-ID: <56c6c4c0daae5632fcac16c83a1d493b@errorlogger.com>
+Date: Fri, 30 May 2014 14:50:19 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:50:34 Error: Fatal Error (4): Message-ID: <0d6e671b42c7d54de48a51c532dae8c1@errorlogger.com>
+Date: Fri, 30 May 2014 14:50:34 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:51:39 Error: Fatal Error (4): Message-ID: <92716d9ea5f702b3146a6be0e686cdbe@errorlogger.com>
+Date: Fri, 30 May 2014 14:51:39 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:52:20 Error: Fatal Error (4): Message-ID: <a5d798ca155e9fcf3b74ac8abc6110a5@errorlogger.com>
+Date: Fri, 30 May 2014 14:52:20 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:52:22 Error: Fatal Error (4): Message-ID: <52179d34bc38ea3891501b0e2c6b894a@errorlogger.com>
+Date: Fri, 30 May 2014 14:52:22 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:52:43 Error: Fatal Error (4): Message-ID: <42cfe7df310f2c354b20668a0533ac93@errorlogger.com>
+Date: Fri, 30 May 2014 14:52:43 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:53:03 Error: Fatal Error (4): Message-ID: <10f1d0c38535db73a974883c6ce48c84@errorlogger.com>
+Date: Fri, 30 May 2014 14:53:03 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:53:05 Error: Fatal Error (4): Message-ID: <8c1a0518765523d5d0f22cde549811ea@errorlogger.com>
+Date: Fri, 30 May 2014 14:53:05 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:54:13 Error: Fatal Error (4): Message-ID: <387aec890b55a30432b7aecfdae0ff26@errorlogger.com>
+Date: Fri, 30 May 2014 14:54:13 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:54:20 Error: Fatal Error (4): Message-ID: <247203dc82bcad7682b37027ad688e2d@errorlogger.com>
+Date: Fri, 30 May 2014 14:54:20 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:55:08 Error: Fatal Error (4): Message-ID: <9ba93e73a2d36f22857a455c57247209@errorlogger.com>
+Date: Fri, 30 May 2014 14:55:07 +0530
+Subject: syntax error, unexpected '}'
+From: Chetna <chetna.patil@weboniselab.com>
+To: Chetna <chetna.patil@weboniselab.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Following are the error details<br>URL:-http://errorlogger.com/Details:-=
+syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:58:22 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:58:58 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-05-30 14:59:10 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-02 12:10:14 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-02 12:10:15 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Lib/ErrorLogs.php(40): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-02 12:10:58 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-02 12:10:59 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Lib/ErrorLogs.php(40): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-02 12:11:29 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-02 12:11:29 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLogger/Lib/ErrorLogs.php(40): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-02 12:20:25 Error: [MissingControllerException] Controller class Details:-pregSplit()Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Details:-pregSplit()Controller',
+  'plugin' => NULL,
+)
+Request URL: /Details:-preg_split()
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-03 09:36:57 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 09:38:07 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 09:45:00 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 09:53:45 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 09:59:31 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:00:04 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:00:29 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:00:52 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:00:52 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(78): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:01:11 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:01:11 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(78): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:03:38 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:03:38 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(78): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:08:16 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:08:16 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(78): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:08:46 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:08:46 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(78): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:11:31 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:11:31 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(78): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:11:45 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:11:45 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(78): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:49:43 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:49:43 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(73): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:53:14 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:53:14 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(73): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:54:59 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:54:59 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(73): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:55:32 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:55:32 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(73): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:56:17 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:56:17 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(73): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-06-03 10:56:31 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Controller/ErrorLoggersController.php, line 26]
+2014-06-03 10:56:31 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Error/ErrorHandler.php(207): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php(73): ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 [internal function]: ErrorLogs::onError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(929): call_user_func('ErrorLogs::onEr...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#4 /home/webonise/Projects/php/app2014/Assignment/ErrorLogger/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}

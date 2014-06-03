@@ -63,6 +63,7 @@ class PagesController extends AppController {
 		if (!empty($path[$count - 1])) {
 			$title_for_layout = Inflector::humanize($path[$count - 1]);
 		}
+
 		$this->set(compact('page', 'subpage', 'title_for_layout'));
 
 		try {
@@ -74,13 +75,4 @@ class PagesController extends AppController {
 			throw new NotFoundException();
 		}
 	}
-
-    public function error()
-    {
-        $error = 'no error';
-        $num = array('abcd');
-        $num[0];
-        $a/0;
-//        $this->set(compact($error));
-    }
 }
