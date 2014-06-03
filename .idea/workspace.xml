@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b38bd8-893d-427e-a82e-48f81751f729" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/ErrorLoggersController.php" afterPath="$PROJECT_DIR$/app/Controller/ErrorLoggersController.php" />
     </list>
     <ignored path="ErrorLogger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="114" selection-end="114" vertical-scroll-proportion="0.12912482">
+            <state line="4" column="6" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="core.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Config/core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="398" column="10" selection-start="14798" selection-end="14798" vertical-scroll-proportion="-12.791667">
+            <state line="399" column="40" selection-start="14839" selection-end="14839" vertical-scroll-proportion="0.47845468">
               <folding />
             </state>
           </provider>
@@ -133,7 +132,6 @@
         <option value="$PROJECT_DIR$/app/Config/bootstrap.php" />
         <option value="$PROJECT_DIR$/app/Vendor/Swift-5.0.1/lib/classes/Swift/Transport/AbstractSmtpTransport.php" />
         <option value="$PROJECT_DIR$/app/Plugin/ErrorLoggers/Controller/Component/SwiftMailerComponent.php" />
-        <option value="$PROJECT_DIR$/app/Config/core.php" />
         <option value="$PROJECT_DIR$/lib/Cake/Error/ErrorHandler.php" />
         <option value="$PROJECT_DIR$/app/Plugin/ErrorLoggers/Model/ErrorLoggers.php" />
         <option value="$PROJECT_DIR$/app/Plugin/ErrorLoggers/Model/ErrorLoggersAppModel.php" />
@@ -145,6 +143,7 @@
         <option value="$PROJECT_DIR$/app/Plugin/ErrorLoggers/Lib/ErrorLogs.php" />
         <option value="$PROJECT_DIR$/app/Controller/ErrorLoggersController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/Config/core.php" />
       </list>
     </option>
   </component>
@@ -434,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="398" column="10" selection-start="14798" selection-end="14798" vertical-scroll-proportion="-12.791667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/Component/SwiftMailerComponent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="164" column="51" selection-start="5044" selection-end="5044" vertical-scroll-proportion="-6.1666665">
@@ -457,7 +449,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="114" selection-end="114" vertical-scroll-proportion="0.12912482">
+        <state line="4" column="6" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="399" column="40" selection-start="14839" selection-end="14839" vertical-scroll-proportion="0.47845468">
           <folding />
         </state>
       </provider>
