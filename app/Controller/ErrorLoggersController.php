@@ -22,6 +22,6 @@ class ErrorLoggersController extends AppController {
  */
 	public function index() {
 		$this->ErrorLogger->recursive = 0;
-		$this->set('errorLoggers', $this->Paginator->paginate());
+		$this->set('errorLoggers', $this->Paginator->paginate())
 	}
 }

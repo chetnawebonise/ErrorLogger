@@ -143,8 +143,12 @@ class SwiftMailerComponent extends Object
     }
 
     public function send_mail($subject = '', $body = '') {
-        $this->sendGridUserName = Configure::read('SendGridUserName');
-        $this->sendGridPassword = Configure::read('SendGridPassword');
+//        $this->sendGridUserName = Configure::read('SendGridUserName');
+//        $this->sendGridPassword = Configure::read('SendGridPassword');
+
+        $enableEmail = Configure::read('enableEmail');
+        $host = $enableEmail['host'];
+        $port = $enableEmail['port'];
 
         $message = & Swift_Message::newInstance();
 
@@ -174,11 +178,11 @@ class SwiftMailerComponent extends Object
 
         $transport = Swift_SmtpTransport::newInstance();
 
-        $transport->setHost('localhost');
-        $transport->setPort(25);
+        $transport->setHost($host);
+        $transport->setPort($port);
         //        $transport->setEncryption('tls');
-        $transport->setUsername($this->sendGridUserName);
-        $transport->setPassword($this->sendGridPassword);
+//        $transport->setUsername($this->sendGridUserName);
+//        $transport->setPassword($this->sendGridPassword);
 
         $mailer = Swift_Mailer::newInstance($transport);
         // Attempt to send the email.

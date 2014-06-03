@@ -73,32 +73,38 @@ class ErrorLogs extends ErrorHandler
     public function sendEmail($subject, $message, $stackTrace)
     {
         echo "<br>==========================sending Email===================";
-        $errorLogs = new ErrorLogs();
-        $this->SwiftMailer = & new SwiftMailerComponent();
-        $this->SwiftMailer->smtpType = 'tls';
-        $this->SwiftMailer->sendAs   = 'text';
-        $this->SwiftMailer->from     = 'chetna.patil@weboniselab.com'; //'crucible@gmail.com';
-        $this->SwiftMailer->fromName = 'Chetna';
-        $this->SwiftMailer->to       = 'chetna.patil@weboniselab.com';
+        $enableEmail = Configure::read('enableEmail');
+        if($enableEmail['enable'])
+        {
+            $errorLogs = new ErrorLogs();
+            $this->SwiftMailer = & new SwiftMailerComponent();
+            $this->SwiftMailer->smtpType = 'tls';
+            $this->SwiftMailer->sendAs   = 'text';
+            $this->SwiftMailer->from     = 'chetna.patil@weboniselab.com'; //'crucible@gmail.com';
+            $this->SwiftMailer->fromName = 'Chetna';
+            $this->SwiftMailer->to       = 'chetna.patil@weboniselab.com';
 
-        $message = array(
-            'message' => $message,
-            'stackTrace' => $stackTrace
-        );
+            $message = array(
+                'message' => $message,
+                'stackTrace' => $stackTrace
+            );
 
-        $formattedMessage = $this->formatMessage($message);
+            $formattedMessage = $this->formatMessage($message);
 
-        try {
-            if (!$this->SwiftMailer->send_mail($subject, $formattedMessage)) {
-                $errorMessage = 'Error occurred while sending Email to : ' . $subject . ' Subject :' . $subject;
-                echo "<br>" . $errorMessage;
+            try {
+                if (!$this->SwiftMailer->send_mail($subject, $formattedMessage)) {
+                    $errorMessage = 'Error occurred while sending Email to : ' . $subject . ' Subject :' . $subject;
+                    echo "<br>" . $errorMessage;
+                }
+                else
+                    echo "<br>Mail Sent successfully";
             }
-            else
-                echo "<br>Mail Sent successfully";
+            catch (Exception $e) {
+                echo "<br>Failed to send email: " . $e->getMessage();
+            }
         }
-        catch (Exception $e) {
-            echo "<br>Failed to send email: " . $e->getMessage();
-        }
+        else
+            echo "<br>Mails not enabled";
     }
 
     private static function formatMessage($message)
